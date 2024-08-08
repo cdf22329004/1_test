@@ -1,11 +1,22 @@
-
 #include <stdio.h>
+typedef char* string;
+
 int main()
 {
-    char * s;
-    char m[25];
-    scanf("%s",m);
-    s=m;
-    printf("字符串：%s\n",s);
-   
+    int a=15,b=5;
+    int i=0;
+    while(a>b)
+    {
+        i=i+1;
+        printf("Number:%d\n",i);
+        // if (a>b)continue;
+        // else break;
+        a=a-1;
+        b=b+1;
+        break;
+        
+    }
+
+
+
 }
